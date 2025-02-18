@@ -1,0 +1,20 @@
+Funcionalidades página web personal
+
+- Elegir lenguaje (Inglés y Español)
+- Breve descripción de mi persona
+- Resaltar los conocimientos de tecnologías
+	- Programming Languages:: JavaScript, Java, C++, Haskell, SQL
+	- Web Development:: HTML, CSS, Bootstrap, Node.js
+	- Tools and Frameworks: Git, GitHub, ESLint
+	- Other Tools: Blender
+	- Languages: Native Spanish, Fluent English
+- Contact
+	- Cellphone
+	- Mail
+	- Adress
+	- LinkedIn
+Que se pueda descargar mi tarjeta de contacto
+
+- Page git to see Javascript skills, HTML, CSS, Bootstrap
+- Proyects
+- More about me → Si se clickea en "more about me" se abre otro HTML con más info. Al volver al HTML principal, en el final dice "Gracias por el interés :)". Hay que usar preservación de datos.

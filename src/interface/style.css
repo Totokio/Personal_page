@@ -1,0 +1,128 @@
+body {
+  background-color: rgb(153, 217, 234);
+  font-style: italic;
+}
+
+header {
+  float: left;
+}
+
+#link-logo {
+	display: inline-block; /* Hace que el enlace sea un bloque */
+	width: 128px; /* Mismo ancho que la imagen */
+	height: 128px; /* Mismo alto que la imagen */
+	line-height: 0; /* Elimina espacio adicional */
+	font-size: 0; /* Elimina espacio adicional */
+	padding: 0; /* Elimina padding */
+	margin: 0; /* Elimina margen */
+  }
+  
+  /* Estilos para la imagen */
+  #id-logo {
+	width: 100%; /* La imagen ocupa todo el ancho del enlace */
+	height: 100%; /* La imagen ocupa todo el alto del enlace */
+	display: block; /* Elimina espacio adicional debajo de la imagen */
+	object-fit: contain; /* Asegura que la imagen se ajuste correctamente */
+  }
+
+#id-logo:hover {
+  width: 101%;
+  height: 101%;
+  display:block;
+}
+
+nav {
+  float: right;
+  color: rgb(237, 28, 36);
+  font-weight: bold;
+}
+
+button {
+  font-style: italic;
+}
+
+select {
+  font-style: italic;
+}
+
+#my-desc-link:hover {
+  border-bottom: 3px solid rgb(237, 28, 36);
+}
+
+#tec-link:hover {
+  border-bottom: 3px solid rgb(237, 28, 36);
+}
+
+#projects-link:hover {
+  border-bottom: 3px solid rgb(237, 28, 36);
+}
+
+/* Estilos base */
+#form-language {
+  padding: 5px; /* Ajusta el padding según sea necesario */
+}
+
+#lbl-language {
+  color: rgb(237, 28, 36);
+  font-size: 14px; /* Tamaño de fuente base */
+}
+
+#chg-Language {
+  border: 1px solid rgb(237, 28, 36);
+  border-radius: 10px;
+  color: rgb(237, 28, 36);
+  font-weight: bold;
+}
+
+#chg-Language:hover {
+  border: 3px solid rgb(237, 28, 36);
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  #form-language {
+    padding: 3px; /* Reducir el padding en móviles */
+  }
+
+  #lbl-language {
+    font-size: 12px; /* Reducir el tamaño de la fuente en móviles */
+  }
+
+  #chg-Language {
+    font-size: 12px; /* Reducir el tamaño de la fuente del select en móviles */
+    color: rgb(237, 28, 36);
+  }
+}
+
+Section {
+  clear: both;
+  padding: 3%;
+}
+
+h2 {
+  text-align: center;
+}
+
+#my-photo {
+  width: 20%;
+  border-radius: 50%;
+  border: 2px solid rgb(237, 28, 36);
+  float: left;
+}
+
+#my-photo:hover {
+  width: 20%;
+  border-radius: 50%;
+  border: 6px solid rgb(237, 28, 36);
+}
+
+Article {
+  border: 1px solid rgb(237, 28, 36);
+  border-radius: 20px;
+  padding: 1%;
+}
+
+footer {
+  text-align: center;
+  clear: both;
+}
