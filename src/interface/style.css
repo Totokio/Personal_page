@@ -8,27 +8,27 @@ header {
 }
 
 #link-logo {
-	display: inline-block; /* Hace que el enlace sea un bloque */
-	width: 128px; /* Mismo ancho que la imagen */
-	height: 128px; /* Mismo alto que la imagen */
-	line-height: 0; /* Elimina espacio adicional */
-	font-size: 0; /* Elimina espacio adicional */
-	padding: 0; /* Elimina padding */
-	margin: 0; /* Elimina margen */
-  }
-  
-  /* Estilos para la imagen */
-  #id-logo {
-	width: 100%; /* La imagen ocupa todo el ancho del enlace */
-	height: 100%; /* La imagen ocupa todo el alto del enlace */
-	display: block; /* Elimina espacio adicional debajo de la imagen */
-	object-fit: contain; /* Asegura que la imagen se ajuste correctamente */
-  }
+  display: inline-block; /* Hace que el enlace sea un bloque */
+  width: 128px; /* Mismo ancho que la imagen */
+  height: 128px; /* Mismo alto que la imagen */
+  line-height: 0; /* Elimina espacio adicional */
+  font-size: 0; /* Elimina espacio adicional */
+  padding: 0; /* Elimina padding */
+  margin: 0; /* Elimina margen */
+}
+
+/* Estilos para la imagen */
+#id-logo {
+  width: 100%; /* La imagen ocupa todo el ancho del enlace */
+  height: 100%; /* La imagen ocupa todo el alto del enlace */
+  display: block; /* Elimina espacio adicional debajo de la imagen */
+  object-fit: contain; /* Asegura que la imagen se ajuste correctamente */
+}
 
 #id-logo:hover {
   width: 101%;
   height: 101%;
-  display:block;
+  display: block;
 }
 
 nav {
@@ -108,12 +108,26 @@ h2 {
   border-radius: 50%;
   border: 2px solid rgb(237, 28, 36);
   float: left;
+  transition: 1s;
 }
 
 #my-photo:hover {
   width: 20%;
   border-radius: 50%;
   border: 6px solid rgb(237, 28, 36);
+  transition: 1s;
+}
+
+#logosTecs {
+  width: 10%;
+  transition: 1s;
+}
+
+#logosTecs:hover {
+  width: 15%;
+  border-radius: 10%;
+  border: 6px solid rgb(237, 28, 36);
+  transition: 1s;
 }
 
 Article {
