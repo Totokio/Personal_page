@@ -140,6 +140,17 @@ Article {
   width: 10%;
 }
 
+#projectTxt:hover #projectPicture{
+  width: 15%;
+  border: 6px solid rgb(237, 28, 36);
+  transition: 1s;
+}
+
+#projectPicture{
+  width: 0%;
+  transition: 1s;
+}
+
 footer {
   text-align: center;
   clear: both;
