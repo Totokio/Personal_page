@@ -136,6 +136,10 @@ Article {
   padding: 1%;
 }
 
+#logoGit{
+  width: 10%;
+}
+
 footer {
   text-align: center;
   clear: both;
