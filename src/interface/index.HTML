@@ -13,89 +13,93 @@
 </head>
 
 <body>
-    <header>
-        <h1>
-            <a href="index.html" id="link-logo">
-                <img src="./img/Logo.ico" alt="ACM logo" id="id-logo" />
-            </a>
-        </h1>
-    </header>
-
-    <nav class="navbar navbar-expand p-3">
-        <div class="container-fluid">
-            <div class="d-flex align-items-center ms-auto">
-
-                <a class="nav-link me-3" href="#title-my-desc" role="tab" id="my-desc-link">
-                    Sobre mi
+    <div id="allButFooter">
+        <header>
+            <h1>
+                <a href="index.html" id="link-logo">
+                    <img src="./img/Logo.ico" alt="ACM logo" id="id-logo" />
                 </a>
+            </h1>
+        </header>
 
-                <a class="nav-link me-3" href="#title-my-tecs" role="tab" id="tec-link">
-                    Tecnologías
-                </a>
+        <nav class="navbar navbar-expand p-3">
+            <div class="container-fluid">
+                <div class="d-flex align-items-center ms-auto">
 
-                <a class="nav-link" href="#title-my-projects" role="tab" id="projects-link">
-                    Proyectos
-                </a>
+                    <a class="nav-link me-3" href="#title-my-desc" role="tab" id="my-desc-link">
+                        Sobre mi
+                    </a>
 
-                <form class="form-floating" id="form-language">
-                    <select class="form-select form-select-sm" aria-label=".form-select-sm example" id="chg-Language">
-                        <option selected> Español </option>
-                        <option> English </option>
-                    </select>
-                    <label for="chg-Language" id="lbl-language">Idioma</label>
-                </form>
+                    <a class="nav-link me-3" href="#title-my-tecs" role="tab" id="tec-link">
+                        Tecnologías
+                    </a>
+
+                    <a class="nav-link" href="#title-my-projects" role="tab" id="projects-link">
+                        Proyectos
+                    </a>
+
+                    <form class="form-floating" id="form-language">
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example"
+                            id="chg-Language">
+                            <option selected> Español </option>
+                            <option> English </option>
+                        </select>
+                        <label for="chg-Language" id="lbl-language">Idioma</label>
+                    </form>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-    <section>
-        <h2 id="title-my-desc">Breve descripción de mi persona</h2>
-        <img src="img/Foto de perfil 2 .png" id="my-photo" alt="Una foto mía">
-        <p>¡Bienvenido a mi página web! Mi nombre es Alejandro Cabrera Moraes. Soy un estudiante ingeniería en
-            computación en la FIng, pero he salvado materias de la misma carrera en
-            la Universidad ORT. Además tuve un pasaje en la FDer (Salvé un año allí).
-        </p>
+        <section>
+            <h2 id="title-my-desc">Breve descripción de mi persona</h2>
+            <img src="img/Foto de perfil 2 .png" id="my-photo" alt="Una foto mía">
+            <p>¡Bienvenido a mi página web! Mi nombre es Alejandro Cabrera Moraes. Soy un estudiante ingeniería en
+                computación en la FIng, pero he salvado materias de la misma carrera en
+                la Universidad ORT. Además tuve un pasaje en la FDer (Salvé un año allí).
+            </p>
+            <br>
+
+            <p>Deseo ingresar al mercado laboral, estoy buscando la oportunidad de ingresar como programador junior
+                usando
+                alguna de las tecnologías que conozco.</p>
+
+
+
+        </section>
+
         <br>
 
-        <p>Deseo ingresar al mercado laboral, estoy buscando la oportunidad de ingresar como programador junior usando
-            alguna de las tecnologías que conozco.</p>
+        <section>
+            <h2 id="title-my-tecs">Tecnologías</h2>
 
+            <div id="tecsBox">
+                <img src="img/js_logo.jpg" class="img-fluid" id="logosTecs" id="jsLogo" alt="Javascript logo">
 
+                <img src="img/CSS_Logo.png" class="img-fluid" id="logosTecs" alt="CSS logo">
 
-    </section>
+                <img src="img/html5_logo.png" class="img-fluid" id="logosTecs" alt="HTML 5 logo">
 
-    <br>
+                <img src="img/c++_logo.png" class="img-fluid" id="logosTecs" alt="C++ logo">
 
-    <section>
-        <h2 id="title-my-tecs">Tecnologías</h2>
+                <img src="img/java_logo.png" class="img-fluid" id="logosTecs" alt="Java logo">
 
-        <div id="tecsBox">
-            <img src="img/js_logo.jpg" class="img-fluid" id="logosTecs" id="jsLogo" alt="Javascript logo">
-
-            <img src="img/CSS_Logo.png" class="img-fluid" id="logosTecs" alt="CSS logo">
-
-            <img src="img/html5_logo.png" class="img-fluid" id="logosTecs" alt="HTML 5 logo">
-
-            <img src="img/c++_logo.png" class="img-fluid" id="logosTecs" alt="C++ logo">
-
-            <img src="img/java_logo.png" class="img-fluid" id="logosTecs" alt="Java logo">
-
-            <!--<img src="img/asm_logo.png" class="img-fluid" id="logosTecs" alt="Assembler logo">-->
-        </div>
-        <br>
-
-        <div>
-            <h3 id="title-my-projects"> Repositorios de proyectos de <img src="img/GitHub_logo.png" class="img-fluid"
-                    id="logoGit" alt="Logo Github">: </h3>
-
-
-            <div id="projectTxt">
-                <a href="https://github.com/Totokio/Personal_page" target="_blank" id="projectTxt">Página personal
-                    <img src="img/Proyectos/Página_personal.png" class="img-fluid" id="projectPicture">
-                </a>
+                <!--<img src="img/asm_logo.png" class="img-fluid" id="logosTecs" alt="Assembler logo">-->
             </div>
-        </div>
-    </section>
+            <br>
+
+            <div>
+                <h3 id="title-my-projects"> Repositorios de proyectos de <img src="img/GitHub_logo.png"
+                        class="img-fluid" id="logoGit" alt="Logo Github">: </h3>
+
+
+                <div id="projectTxt">
+                    <a href="https://github.com/Totokio/Personal_page" target="_blank" id="projectTxt">Página personal
+                        <img src="img/Proyectos/Página_personal.png" class="img-fluid" id="projectPicture">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <footer>
         <p>Celular: +59891800226</p>

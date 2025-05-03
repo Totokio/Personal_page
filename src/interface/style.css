@@ -1,6 +1,10 @@
 body {
-  background-color: rgb(153, 217, 234);
   font-style: italic;
+  background-color: rgb(143, 207, 224);
+}
+
+#allButFooter{
+  background-color: rgb(153, 217, 234);
 }
 
 header {
@@ -152,6 +156,7 @@ Article {
 }
 
 footer {
-  text-align: center;
   clear: both;
+  text-align: center;
+  background-color: rgb(143, 207, 224);
 }
